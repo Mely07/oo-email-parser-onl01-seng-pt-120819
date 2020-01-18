@@ -14,7 +14,7 @@ class EmailAddressParser
   
   def parse #parse new emails into array
    new = email_addresses.split(/, | /)
-   new.unique
+   new.uniq!
   end
    
   
