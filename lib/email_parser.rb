@@ -11,7 +11,6 @@ class EmailAddressParser
   
   def initialize(email_addresses)
     @email_addresses = email_addresses
-    parse
   end
   
   def parse #parse new emails into array
