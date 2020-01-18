@@ -14,7 +14,7 @@ class EmailAddressParser
   end
   
   def parse #parse new emails into array
-    @@useful_array << email_addresses.split(",")
+    @@useful_array << email_addresses.split(",").join()
   end
    
   
