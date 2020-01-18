@@ -13,8 +13,8 @@ class EmailAddressParser
   end
   
   def parse #parse new emails into array
-   new = email_addresses.split(/, | /)
-   new.uniq
+   new = email_addresses.split(/, | /).uniq
+   new
   end
    
   
