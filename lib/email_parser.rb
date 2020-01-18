@@ -5,7 +5,7 @@
 
 class EmailAddressParser
   
-  attr_accessor :email_addresses.unique
+  attr_accessor :email_addresses
   
   
   def initialize(email_addresses)
@@ -13,7 +13,7 @@ class EmailAddressParser
   end
   
   def parse #parse new emails into array
-    email_addresses.split(/, | /)
+    email_addresses.split(/, | /).unique
   end
    
   
