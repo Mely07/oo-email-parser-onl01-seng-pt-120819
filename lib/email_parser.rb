@@ -7,7 +7,7 @@ class EmailAddressParser
   
   attr_accessor :email_addresses
   
-  @@useful_array = [ ]
+  @@useful_array 
   
   def initialize(email_addresses)
     @email_addresses = email_addresses
