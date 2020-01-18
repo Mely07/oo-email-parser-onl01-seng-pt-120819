@@ -15,8 +15,9 @@ class EmailAddressParser
   end
   
   def parse #parse new emails into array
-    self.class.all << @email_addresses
+    @@useful_array << @email_addresses
   end
-  
+   
   
 end
+ 
