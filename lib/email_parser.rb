@@ -7,14 +7,14 @@ class EmailAddressParser
   
   attr_accessor :email_addresses
   
-  @@useful_array 
+
   
   def initialize(email_addresses)
     @email_addresses = email_addresses
   end
   
   def parse #parse new emails into array
-    @@useful_array << email_addresses.split(",")
+    email_addresses.split(",")
   end
    
   
