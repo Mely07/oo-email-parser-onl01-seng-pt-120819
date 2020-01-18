@@ -10,7 +10,6 @@ class EmailAddressParser
   @@useful_array = []
   
   def initialize(email_addresses)
-    @email_addresses = email_addresses
     parse
   end
   
